@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JamesHadoop">
+    <output-path>$PROJECT_DIR$/out/artifacts/JamesHadoop</output-path>
+    <root id="archive" name="JamesHadoop.jar" />
+  </artifact>
+</component>
