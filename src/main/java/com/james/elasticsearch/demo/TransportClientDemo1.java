@@ -13,7 +13,7 @@ import java.net.InetAddress;
 /**
  * Created by james on 17-3-14.
  */
-public class EsDemo {
+public class TransportClientDemo1 {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello Elasticsearch...");
 
@@ -35,8 +35,11 @@ public class EsDemo {
             }
         }
 
+
         if (null != client) {
             client.close();
         }
+
+        System.out.println("Bye Elasticsearch...");
     }
 }
