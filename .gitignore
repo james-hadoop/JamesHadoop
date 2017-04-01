@@ -1,0 +1,18 @@
+# Maven #
+target/
+checkpoint/
+
+# IDEA #
+.idea/
+*.iml
+
+# Eclipse #
+.metadata/
+.classpath
+Servers/
+log/
+logs/
+bin/
+
+# Mac #
+.DS_Store

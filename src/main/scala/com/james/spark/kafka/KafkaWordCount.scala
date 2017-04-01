@@ -17,17 +17,20 @@ object KafkaWordCount {
 
         val Array(zkQuorum, group, topics, numThreads) = args
         val sparkConf = new SparkConf().setAppName("KafkaWordCount").setMaster("local")
-        val ssc = new StreamingContext(sparkConf, Seconds(2))
+        val ssc = new StreamingContext(sparkConf, Seconds(20))
         ssc.checkpoint("checkpoint")
 
         val kafkaParams = Map[String, String]("metadata.broker.list" -> "localhost:9092", "group.id" -> "test0")
 
+        val messages = KafkaUtils.createDirectStream[String, String, StringDecoder, StringDecoder](ssc, kafkaParams, Set("test0"))
 
-        val topicMap = topics.split(",").map((_, numThreads.toInt)).toMap
+        // Get the lines, split them into words, count the words and print
+        val lines = messages.map(_._2)
+        val words = lines.flatMap(_.split(" "))
+        val wordCounts = words.map(x => (x, 1L))
+          .reduceByKeyAndWindow(_ + _, _ - _, Seconds(40), Seconds(40), 2)
 
-        val lines = KafkaUtils.createDirectStream[String, String, StringDecoder, StringDecoder](ssc, kafkaParams, Set("test0"))
-        println(lines)
-        lines.saveAsTextFiles("/home/james/data/spark/KafkaWordCount/spark-streaming")
+        wordCounts.saveAsTextFiles("/home/james/data/spark/KafkaWordCount/wordCounts")
 
         //        val lines = KafkaUtils.createStream(ssc, zkQuorum, group, topicMap).map(_._2)
         //        println(lines)
