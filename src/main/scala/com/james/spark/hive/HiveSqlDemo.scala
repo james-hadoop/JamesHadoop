@@ -16,7 +16,7 @@ object HiveSqlDemo extends App{
 
     val spark = SparkSession
       .builder()
-      .appName("Spark Hive Example")
+      .appName("Spark Hive Example").master("local")
       .config("spark.sql.warehouse.dir", warehouseLocation)
       .enableHiveSupport()
       .getOrCreate()

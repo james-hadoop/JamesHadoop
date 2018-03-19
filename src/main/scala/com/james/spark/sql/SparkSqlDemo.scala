@@ -13,9 +13,9 @@ object SparkSqlDemo extends App {
 
     val spark = SparkSession
       .builder()
-      .appName("Spark SQL basic example")
+      .appName("Spark SQL basic example").master("local")
       .config("spark.some.config.option", "some-value")
-      .config("driver-class-path", "/home/james/install/spark/jars/mysql-connector-java-5.1.38-bin.jar")
+      .config("driver-class-path", "/Users/qjiang/software/mysql-connector-java-5.1.44/mysql-connector-java-5.1.44-bin.jar")
       .getOrCreate()
 
 
