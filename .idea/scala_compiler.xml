@@ -4,7 +4,7 @@
     <option name="compileOrder" value="JavaThenScala" />
     <profile name="Maven 1" modules="JamesHadoop">
       <parameters>
-        <parameter value="-target:jvm-1.5" />
+        <parameter value="-target:jvm-1.8" />
       </parameters>
     </profile>
   </component>

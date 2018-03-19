@@ -7,10 +7,10 @@ import org.apache.spark.{SparkConf, SparkContext}
   */
 object TopK {
     def main(args: Array[String]): Unit = {
-        val conf = new SparkConf().setAppName("WorldCount").setMaster("local");
+        val conf = new SparkConf().setAppName("TopK").setMaster("local");
         val sc = new SparkContext(conf)
 
-        val count = sc.textFile("/home/james/install/spark/README.md").flatMap(line =>
+        val count = sc.textFile("/Users/qjiang/install/spark/README.md").flatMap(line =>
             line.split(" ")).map(word =>
             (word, 1)).reduceByKey(_ + _)
 
