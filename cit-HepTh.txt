@@ -1,0 +1,12 @@
+# Directed graph (each unordered pair of nodes is saved once):
+# Paper citation network of Arxiv High Energy Physics Theory category
+# Nodes: 27770 Edges: 352807
+# FromNodeId  ToNodeId
+1001          9304045
+1001          9308122
+1001          9309097
+1001          9311042
+1001          9401139
+1001          9404151
+1001          9407087
+1001          9408099
