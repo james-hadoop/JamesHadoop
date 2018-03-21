@@ -7,7 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f7b2b2d-643f-4cd4-842b-63cc380e673c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX1.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX1.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_2.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_1.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_1.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,13 +24,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GraphX_4_1.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GraphX_4_1.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_1.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="41" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
+            <state relative-caret-position="270">
+              <caret line="18" column="42" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="18" selection-end-column="42" />
               <folding>
                 <element signature="e#32#89#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphX_4_2.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_2.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="43" column="7" lean-forward="false" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+              <folding>
+                <element signature="e#32#81#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,9 +86,9 @@
       <find>spark-streaming_2.11</find>
       <find>2.11.11</find>
       <find>2.11.</find>
-      <find>1.5</find>
       <find>airports</find>
       <find>triplets</find>
+      <find>1.5</find>
     </findStrings>
     <replaceStrings>
       <replace>2.12</replace>
@@ -127,8 +140,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/PageRank.scala" />
         <option value="$PROJECT_DIR$/scriptFile.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/PageRank1.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX1.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_1.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_2.scala" />
       </list>
     </option>
   </component>
@@ -289,7 +303,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GraphX1">
+  <component name="RunManager" selected="Application.GraphX_4_2">
     <configuration name="GraphX1" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -347,14 +361,14 @@
       <module name="JamesHadoop" />
       <envs />
     </configuration>
-    <configuration name="HelloGrpaphX" type="Application" factoryName="Application" temporary="true">
+    <configuration name="GraphX_4_2" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.james.spark.graphX.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.james.spark.graphX.HelloGrpaphX" />
+      <option name="MAIN_CLASS_NAME" value="com.james.spark.graphX.GraphX_4_2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -714,19 +728,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Maven.MavenRunnning" />
-      <item index="1" class="java.lang.String" itemvalue="Application.HelloGrpaphX" />
-      <item index="2" class="java.lang.String" itemvalue="Application.GraphX1" />
-      <item index="3" class="java.lang.String" itemvalue="Application.GraphX2" />
-      <item index="4" class="java.lang.String" itemvalue="Application.PageRank1" />
-      <item index="5" class="java.lang.String" itemvalue="Application.GraphX_4_1" />
+      <item index="1" class="java.lang.String" itemvalue="Application.GraphX1" />
+      <item index="2" class="java.lang.String" itemvalue="Application.GraphX2" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PageRank1" />
+      <item index="4" class="java.lang.String" itemvalue="Application.GraphX_4_1" />
+      <item index="5" class="java.lang.String" itemvalue="Application.GraphX_4_2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.GraphX1" />
+        <item index="0" class="java.lang.String" itemvalue="Application.GraphX_4_2" />
         <item index="1" class="java.lang.String" itemvalue="Application.GraphX_4_1" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PageRank1" />
-        <item index="3" class="java.lang.String" itemvalue="Application.GraphX2" />
-        <item index="4" class="java.lang.String" itemvalue="Application.HelloGrpaphX" />
+        <item index="2" class="java.lang.String" itemvalue="Application.GraphX1" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PageRank1" />
+        <item index="4" class="java.lang.String" itemvalue="Application.GraphX2" />
       </list>
     </recent_temporary>
   </component>
@@ -856,13 +870,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/james/elasticsearch/demo/RestClientDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/james/elasticsearch/demo/TransportClientDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-594">
@@ -1120,7 +1127,7 @@
         <state relative-caret-position="240">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#32#81#0" expanded="true" />
+            <element signature="e#32#81#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1147,10 +1154,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="41" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
+        <state relative-caret-position="270">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="18" selection-end-column="42" />
           <folding>
             <element signature="e#32#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="43" column="7" lean-forward="false" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+          <folding>
+            <element signature="e#32#81#0" expanded="true" />
           </folding>
         </state>
       </provider>

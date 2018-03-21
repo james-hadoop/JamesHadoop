@@ -34,8 +34,21 @@ object GraphX_4_1 {
     // aggregateMessages
     myGraph.aggregateMessages[Int](_.sendToSrc(1), _ + _).collect.foreach(println)
 
-    // aggregateMessages
+    // join
     myGraph.aggregateMessages[Int](_.sendToSrc(1),
       _ + _).join(myGraph.vertices).collect.foreach(println)
+
+    // map() and swap()
+    myGraph.aggregateMessages[Int](_.sendToSrc(1),
+      _ + _).join(myGraph.vertices).map(_._2.swap).collect.foreach(println)
+
+    // rightOuterJoin()
+    myGraph.aggregateMessages[Int](_.sendToSrc(1),
+      _ + _).rightOuterJoin(myGraph.vertices).map(_._2.swap).collect.foreach(println)
+
+    // Option[]’s getOrElse()
+    myGraph.aggregateMessages[Int](_.sendToSrc(1),
+      _ + _).rightOuterJoin(myGraph.vertices).map(
+      x => (x._2._2, x._2._1.getOrElse(0))).collect.foreach(println)
   }
 }
