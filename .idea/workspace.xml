@@ -7,9 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f7b2b2d-643f-4cd4-842b-63cc380e673c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_2.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_1.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_1.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_2.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_2.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_1.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="42" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="18" selection-end-column="42" />
+              <caret line="18" column="42" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="18" selection-end-column="42" />
               <folding>
                 <element signature="e#32#89#0" expanded="true" />
               </folding>
@@ -39,11 +38,21 @@
       <file leaf-file-name="GraphX_4_2.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_2.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="43" column="7" lean-forward="false" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+            <state relative-caret-position="226">
+              <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
               <folding>
                 <element signature="e#32#81#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="part-00000" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myGraphEdges/part-00000">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -221,47 +230,12 @@
             <path>
               <item name="JamesHadoop" type="b2602c69:ProjectViewProjectNode" />
               <item name="JamesHadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="myGraphEdges" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JamesHadoop" type="b2602c69:ProjectViewProjectNode" />
               <item name="JamesHadoop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JamesHadoop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JamesHadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JamesHadoop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JamesHadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="james" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JamesHadoop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JamesHadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="james" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JamesHadoop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JamesHadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="james" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="graphX" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -870,13 +844,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/james/elasticsearch/demo/TransportClientDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594">
-          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/james/elasticsearch/demo/TransportClientDemo4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1155,17 +1122,25 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_1.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="42" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="18" selection-end-column="42" />
+          <caret line="18" column="42" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="18" selection-end-column="42" />
           <folding>
             <element signature="e#32#89#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myGraphEdges/part-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="43" column="7" lean-forward="false" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+        <state relative-caret-position="226">
+          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding>
             <element signature="e#32#81#0" expanded="true" />
           </folding>

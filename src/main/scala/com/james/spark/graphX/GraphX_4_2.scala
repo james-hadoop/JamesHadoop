@@ -1,7 +1,7 @@
 package com.james.spark.graphX
 
 import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.spark.graphx.{Edge, EdgeContext, Graph}
+import org.apache.spark.graphx.{Edge, EdgeContext, Graph, VertexId}
 
 object GraphX_4_2 {
   def main(args: Array[String]): Unit = {
@@ -21,6 +21,12 @@ object GraphX_4_2 {
     // propagateEdgeCount
     val initialGraph = myGraph.mapVertices((_, _) => 0)
     propagateEdgeCount(initialGraph).vertices.collect.foreach(println)
+
+    // Listing 4.11 Round-trip persisting to and reading from file
+    myGraph.vertices.saveAsObjectFile("myGraphVertices")
+    myGraph.edges.saveAsObjectFile("myGraphEdges")
+    val myGraph2 = Graph(
+      sc.objectFile[Tuple2[VertexId, String]]("myGraphVertices"), sc.objectFile[Edge[String]]("myGraphEdges"))
   }
 
   // sendMsg function that will be given to aggregateMessages. // Remember this function will be called for each edge in the // graph. Here it simply passes on an incremented counter.
