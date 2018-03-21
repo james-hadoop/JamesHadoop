@@ -1,0 +1,5 @@
+{"srcId":1,"dstId":2,"attr":"is-friends-with"}
+{"srcId":2,"dstId":3,"attr":"is-friends-with"}
+{"srcId":3,"dstId":4,"attr":"is-friends-with"}
+{"srcId":3,"dstId":5,"attr":"Wrote-status"}
+{"srcId":4,"dstId":5,"attr":"Likes-status"}
