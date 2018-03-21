@@ -28,6 +28,6 @@ object GraphX1 {
     graph.triplets.take(3).foreach(println)
 
     // print out longest routes
-    graph.triplets.sortBy(_.attr, ascending = false).map(triplet => "Distance" + triplet.attr.toString + "from" + triplet.srcAttr + "to" + triplet.dstAttr).collect.foreach(println)
+    graph.triplets.sortBy(_.attr, ascending = false).map(triplet => "Distance=" + triplet.attr.toString + " from " + triplet.srcAttr + " to " + triplet.dstAttr).collect.foreach(println)
   }
 }
