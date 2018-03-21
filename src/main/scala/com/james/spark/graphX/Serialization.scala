@@ -20,10 +20,10 @@ object Serialization {
 
 
     // Listing 4.11 Round-trip persisting to and reading from file
-    //myGraph.vertices.saveAsObjectFile("myGraphVertices")
-    //myGraph.edges.saveAsObjectFile("myGraphEdges")
+    //myGraph.vertices.saveAsObjectFile("data/myGraphVertices")
+    //myGraph.edges.saveAsObjectFile("data/myGraphEdges")
     val myGraph2 = Graph(
-      sc.objectFile[Tuple2[VertexId, String]]("myGraphVertices"), sc.objectFile[Edge[String]]("myGraphEdges"))
+      sc.objectFile[Tuple2[VertexId, String]]("data/myGraphVertices"), sc.objectFile[Edge[String]]("data/myGraphEdges"))
     myGraph2.vertices.collect.foreach(println)
     myGraph2.edges.collect.foreach(println)
 

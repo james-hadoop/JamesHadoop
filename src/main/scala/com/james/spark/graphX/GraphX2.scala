@@ -5,7 +5,7 @@ import org.apache.spark.graphx.{Edge, Graph, VertexId}
 
 object GraphX2 {
   def main(args: Array[String]): Unit = {
-    val conf = new SparkConf().setAppName("GraphX1").setMaster("local")
+    val conf = new SparkConf().setAppName("GraphX2").setMaster("local")
     val sc = new SparkContext(conf)
 
     val vertices = sc.makeRDD(Array((1L, ("SFO")), (2L, ("ORD")), (3L, ("DFW"))))

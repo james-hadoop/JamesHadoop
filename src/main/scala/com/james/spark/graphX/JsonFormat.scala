@@ -7,7 +7,7 @@ import com.fasterxml.jackson.module.scala.DefaultScalaModule
 
 object JsonFormat {
   def main(args: Array[String]): Unit = {
-    val conf = new SparkConf().setAppName("GraphX_4_1").setMaster("local")
+    val conf = new SparkConf().setAppName("JsonFormat").setMaster("local")
     val sc = new SparkContext(conf)
 
     val myVertices = sc.makeRDD(Array((1L, "Ann"), (2L, "Bill"),
@@ -27,7 +27,7 @@ object JsonFormat {
       val writer = new java.io.StringWriter()
       mapper.writeValue(writer, x)
       writer.toString
-    }).coalesce(1, true).saveAsTextFile("myGraphVerticesInJson")
+    }).coalesce(1, true).saveAsTextFile("data/myGraphVerticesInJson")
 
     // Listing 4.15 Better performing way to serialize/deserialize to/from JSON
     myGraph.vertices.map(x => {
@@ -37,7 +37,7 @@ object JsonFormat {
       val writer = new java.io.StringWriter()
       mapper.writeValue(writer, x)
       writer.toString
-    }).coalesce(1, true).saveAsTextFile("myGraphVerticesA")
+    }).coalesce(1, true).saveAsTextFile("data/myGraphVerticesA")
 
     myGraph.vertices.mapPartitions(vertices => {
       val mapper = new com.fasterxml.jackson.databind.ObjectMapper()
@@ -48,7 +48,7 @@ object JsonFormat {
         mapper.writeValue(writer, v)
         writer.toString
       })
-    }).coalesce(1, true).saveAsTextFile("myGraphVerticesB")
+    }).coalesce(1, true).saveAsTextFile("data/myGraphVerticesB")
     myGraph.edges.mapPartitions(edges => {
       val mapper = new com.fasterxml.jackson.databind.ObjectMapper();
       mapper.registerModule(DefaultScalaModule)
@@ -58,9 +58,9 @@ object JsonFormat {
         mapper.writeValue(writer, e)
         writer.toString
       })
-    }).coalesce(1, true).saveAsTextFile("myGraphEdgesA")
+    }).coalesce(1, true).saveAsTextFile("data/myGraphEdgesB")
     val myGraph2 = Graph(
-      sc.textFile("myGraphVertices").mapPartitions(vertices => {
+      sc.textFile("data/myGraphVerticesB").mapPartitions(vertices => {
         val mapper = new com.fasterxml.jackson.databind.ObjectMapper()
         mapper.registerModule(DefaultScalaModule)
         vertices.map(v => {
@@ -68,7 +68,7 @@ object JsonFormat {
           (r._1.toLong, r._2)
         })
       }),
-      sc.textFile("myGraphEdgesA").mapPartitions(edges => {
+      sc.textFile("data/myGraphEdgesB").mapPartitions(edges => {
         val mapper = new com.fasterxml.jackson.databind.ObjectMapper()
         mapper.registerModule(DefaultScalaModule)
         edges.map(e => mapper.readValue[Edge[String]](e,
