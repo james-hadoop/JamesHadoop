@@ -7,36 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f7b2b2d-643f-4cd4-842b-63cc380e673c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphGenerator.scala" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphEdges/._SUCCESS.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphEdges/.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphEdges/_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphEdges/part-00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphEdgesA/._SUCCESS.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphEdgesA/.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphEdgesA/_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphEdgesA/part-00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphVertices/._SUCCESS.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphVertices/.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphVertices/_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphVertices/part-00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphVerticesA/._SUCCESS.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphVerticesA/.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphVerticesA/_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphVerticesA/part-00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphVerticesB/._SUCCESS.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphVerticesB/.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphVerticesB/_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphVerticesB/part-00000" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphVerticesInJson/._SUCCESS.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphVerticesInJson/.part-00000.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphVerticesInJson/_SUCCESS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myGraphVerticesInJson/part-00000" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/PageRank2.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/TriangleCount.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX2.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX2.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_2.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_2.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/JsonFormat.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/JsonFormat.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/Serialization.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/Serialization.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,107 +24,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JsonFormat.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/JsonFormat.scala">
+      <file leaf-file-name="TriangleCount.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/TriangleCount.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-667">
-              <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+            <state relative-caret-position="270">
+              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
-                <element signature="e#32#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageRank1.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/PageRank1.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphGenerator.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphGenerator.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-              <folding>
-                <element signature="e#32#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphX1.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX1.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-              <folding>
-                <element signature="e#32#86#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphX_4_1.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_1.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-172">
-              <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-              <folding>
-                <element signature="e#32#89#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphX_4_2.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_2.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#32#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloGrpaphX.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/HelloGrpaphX.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="31" />
-              <folding>
-                <element signature="e#32#89#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Serialization.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/Serialization.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-              <folding>
-                <element signature="e#32#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphX2.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX2.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-              <folding>
-                <element signature="e#32#81#0" expanded="true" />
+                <element signature="e#32#108#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -256,6 +135,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/Serialization.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/JsonFormat.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/PageRank2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/TriangleCount.scala" />
       </list>
     </option>
   </component>
@@ -366,16 +247,6 @@
               <item name="james" type="462c0819:PsiDirectoryNode" />
               <item name="spark" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JamesHadoop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JamesHadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="james" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="graphX" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -416,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GraphGenerator">
+  <component name="RunManager" selected="Application.TriangleCount">
     <configuration name="GraphGenerator" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -425,25 +296,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.james.spark.graphX.GraphGenerator" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JamesHadoop" />
-      <envs />
-    </configuration>
-    <configuration name="GraphX_4_2" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.james.spark.graphX.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.james.spark.graphX.GraphX_4_2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -514,20 +366,39 @@
         </option>
       </MavenSettings>
     </configuration>
-    <configuration name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
-      <module name="JamesHadoop" />
-      <setting name="vmparams4" value="-Djline.terminal=NONE" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="consoleArgs" value="-usejavacp" />
-    </configuration>
-    <configuration name="Serialization" type="Application" factoryName="Application" temporary="true">
+    <configuration name="PageRank2" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.james.spark.graphX.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.james.spark.graphX.Serialization" />
+      <option name="MAIN_CLASS_NAME" value="com.james.spark.graphX.PageRank2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JamesHadoop" />
+      <envs />
+    </configuration>
+    <configuration name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
+      <module name="JamesHadoop" />
+      <setting name="vmparams4" value="-Djline.terminal=NONE" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="consoleArgs" value="-usejavacp" />
+    </configuration>
+    <configuration name="TriangleCount" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.james.spark.graphX.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.james.spark.graphX.TriangleCount" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -828,19 +699,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Maven.MavenRunnning" />
-      <item index="1" class="java.lang.String" itemvalue="Application.GraphX_4_2" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Serialization" />
-      <item index="3" class="java.lang.String" itemvalue="Application.JsonFormat" />
-      <item index="4" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
-      <item index="5" class="java.lang.String" itemvalue="Application.GraphGenerator" />
+      <item index="1" class="java.lang.String" itemvalue="Application.JsonFormat" />
+      <item index="2" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+      <item index="3" class="java.lang.String" itemvalue="Application.GraphGenerator" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PageRank2" />
+      <item index="5" class="java.lang.String" itemvalue="Application.TriangleCount" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.GraphGenerator" />
-        <item index="1" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
-        <item index="2" class="java.lang.String" itemvalue="Application.JsonFormat" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Serialization" />
-        <item index="4" class="java.lang.String" itemvalue="Application.GraphX_4_2" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TriangleCount" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PageRank2" />
+        <item index="2" class="java.lang.String" itemvalue="Application.GraphGenerator" />
+        <item index="3" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+        <item index="4" class="java.lang.String" itemvalue="Application.JsonFormat" />
       </list>
     </recent_temporary>
   </component>
@@ -884,12 +755,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40824467" sideWeight="0.5088889" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49069148" sideWeight="0.4911111" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31117022" sideWeight="0.4911111" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28148147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32845744" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845744" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -970,8 +841,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/log4j-over-slf4j/1.6.6/log4j-over-slf4j-1.6.6.jar!/org/apache/log4j/Log4jLoggerFactory.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.16/slf4j-log4j12-1.7.16.jar!/org/slf4j/impl/Log4jLoggerFactory.class" />
     <entry file="file://$PROJECT_DIR$/checkpoint/.checkpoint-1490848948000.crc" />
     <entry file="file://$PROJECT_DIR$/checkpoint/checkpoint-1490848950000" />
     <entry file="file://$PROJECT_DIR$/checkpoint/checkpoint-1490848946000.bk" />
@@ -1209,22 +1078,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphGenerator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-          <folding>
-            <element signature="e#32#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX2.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
           <folding>
-            <element signature="e#32#81#0" expanded="true" />
+            <element signature="e#32#81#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1254,7 +1113,7 @@
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#32#81#0" expanded="true" />
+            <element signature="e#32#81#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1274,25 +1133,55 @@
         <state relative-caret-position="233">
           <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
           <folding>
-            <element signature="e#32#81#0" expanded="true" />
+            <element signature="e#32#81#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/JsonFormat.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+          <folding>
+            <element signature="e#32#81#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/PageRank1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="11" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/JsonFormat.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphGenerator.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-667">
-          <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        <state relative-caret-position="261">
+          <caret line="38" column="23" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
           <folding>
             <element signature="e#32#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/PageRank2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="e#32#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/TriangleCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="e#32#108#0" expanded="true" />
           </folding>
         </state>
       </provider>
