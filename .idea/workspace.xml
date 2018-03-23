@@ -7,8 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f7b2b2d-643f-4cd4-842b-63cc380e673c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/ShortestPaths.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/ConnectedComponents.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/SocialCircles.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/PageRank2.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/PageRank2.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/Serialization.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/Serialization.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/ShortestPaths.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/ShortestPaths.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/TriangleCount.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/TriangleCount.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,47 +28,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TriangleCount.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/TriangleCount.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-              <folding>
-                <element signature="e#32#108#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShortestPaths.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/ShortestPaths.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="49" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
-              <folding>
-                <element signature="e#32#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageRank1.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/PageRank1.scala">
+      <file leaf-file-name="SocialCircles.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/SocialCircles.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="11" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphX_4_1.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_1.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="29" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="18" selection-end-column="42" />
+              <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
               <folding>
-                <element signature="e#32#89#0" expanded="true" />
+                <element signature="e#32#68#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,11 +137,13 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphGenerator.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_2.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/Serialization.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/JsonFormat.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/PageRank2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/ConnectedComponents.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/TriangleCount.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/ShortestPaths.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/Serialization.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/PageRank2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/SocialCircles.scala" />
       </list>
     </option>
   </component>
@@ -245,6 +218,11 @@
             <path>
               <item name="JamesHadoop" type="b2602c69:ProjectViewProjectNode" />
               <item name="JamesHadoop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JamesHadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JamesHadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JamesHadoop" type="b2602c69:ProjectViewProjectNode" />
@@ -331,15 +309,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShortestPaths">
-    <configuration name="GraphGenerator" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.SocialCircles">
+    <configuration name="ConnectedComponents" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.james.spark.graphX.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.james.spark.graphX.GraphGenerator" />
+      <option name="MAIN_CLASS_NAME" value="com.james.spark.graphX.ConnectedComponents" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -410,12 +388,6 @@
       <module name="JamesHadoop" />
       <envs />
     </configuration>
-    <configuration name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
-      <module name="JamesHadoop" />
-      <setting name="vmparams4" value="-Djline.terminal=NONE" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="consoleArgs" value="-usejavacp" />
-    </configuration>
     <configuration name="ShortestPaths" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -424,6 +396,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.james.spark.graphX.ShortestPaths" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JamesHadoop" />
+      <envs />
+    </configuration>
+    <configuration name="SocialCircles" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.james.spark.graphX.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.james.spark.graphX.SocialCircles" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -743,19 +734,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Maven.MavenRunnning" />
-      <item index="1" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
-      <item index="2" class="java.lang.String" itemvalue="Application.GraphGenerator" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PageRank2" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TriangleCount" />
-      <item index="5" class="java.lang.String" itemvalue="Application.ShortestPaths" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PageRank2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TriangleCount" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ShortestPaths" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ConnectedComponents" />
+      <item index="5" class="java.lang.String" itemvalue="Application.SocialCircles" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ShortestPaths" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TriangleCount" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PageRank2" />
-        <item index="3" class="java.lang.String" itemvalue="Application.GraphGenerator" />
-        <item index="4" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SocialCircles" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ConnectedComponents" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ShortestPaths" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TriangleCount" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PageRank2" />
       </list>
     </recent_temporary>
   </component>
@@ -788,6 +779,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1350" height="824" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -798,7 +790,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40824467" sideWeight="0.5088889" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31117022" sideWeight="0.4911111" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31117022" sideWeight="0.4911111" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -884,8 +876,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/checkpoint/checkpoint-1490848950000" />
-    <entry file="file://$PROJECT_DIR$/checkpoint/checkpoint-1490848946000.bk" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/james/elasticsearch/demo/BankEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1120,33 +1110,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX2.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/ConnectedComponents.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
           <folding>
-            <element signature="e#32#81#0" expanded="false" />
+            <element signature="e#32#76#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX1.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/TriangleCount.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="75">
+          <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
           <folding>
-            <element signature="e#32#86#0" expanded="true" />
+            <element signature="e#32#108#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_2.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/ShortestPaths.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
           <folding>
-            <element signature="e#32#81#0" expanded="false" />
+            <element signature="e#32#81#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/Serialization.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/PageRank2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="77" lean-forward="false" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/PageRank1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/JsonFormat.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1160,60 +1182,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/Serialization.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding>
-            <element signature="e#32#81#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/JsonFormat.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
-          <folding>
-            <element signature="e#32#81#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphGenerator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="38" column="23" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
-          <folding>
-            <element signature="e#32#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/PageRank2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding>
-            <element signature="e#32#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/TriangleCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="e#32#108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/PageRank1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="11" selection-end-column="63" />
+        <state relative-caret-position="120">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1221,19 +1193,47 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_1.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="18" selection-end-column="42" />
+          <caret line="12" column="29" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="18" selection-end-column="42" />
           <folding>
             <element signature="e#32#89#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/ShortestPaths.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="49" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="90">
+          <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="e#32#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphGenerator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
           <folding>
             <element signature="e#32#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/SocialCircles.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding>
+            <element signature="e#32#68#0" expanded="true" />
           </folding>
         </state>
       </provider>

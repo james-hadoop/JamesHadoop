@@ -3,9 +3,10 @@ package com.james.spark.graphX
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.graphx.{Edge, Graph, VertexId}
 
+// Listing 4.11 Round-trip persisting to and reading from file
 object Serialization {
   def main(args: Array[String]): Unit = {
-    val conf = new SparkConf().setAppName("GraphX_4_1").setMaster("local")
+    val conf = new SparkConf().setAppName("Serialization").setMaster("local")
     val sc = new SparkContext(conf)
 
     val myVertices = sc.makeRDD(Array((1L, "Ann"), (2L, "Bill"),
@@ -18,8 +19,6 @@ object Serialization {
     myGraph.vertices.collect.foreach(println)
     myGraph.edges.collect.foreach(println)
 
-
-    // Listing 4.11 Round-trip persisting to and reading from file
     //myGraph.vertices.saveAsObjectFile("data/myGraphVertices")
     //myGraph.edges.saveAsObjectFile("data/myGraphEdges")
     val myGraph2 = Graph(

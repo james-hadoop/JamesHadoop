@@ -3,9 +3,10 @@ package com.james.spark.graphX
 import org.apache.spark.graphx.{Edge, Graph, lib}
 import org.apache.spark.{SparkConf, SparkContext}
 
+// Listing 5.3 Invoking ShortestPaths
 object ShortestPaths {
   def main(args: Array[String]): Unit = {
-    val conf = new SparkConf().setAppName("PageRank1").setMaster("local")
+    val conf = new SparkConf().setAppName("ShortestPaths").setMaster("local")
     val sc = new SparkContext(conf)
 
     val myVertices = sc.makeRDD(Array((1L, "Ann"), (2L, "Bill"),

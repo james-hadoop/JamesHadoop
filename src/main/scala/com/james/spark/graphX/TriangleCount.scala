@@ -3,9 +3,10 @@ package com.james.spark.graphX
 import org.apache.spark.graphx.{Edge, Graph, GraphLoader, PartitionStrategy}
 import org.apache.spark.{SparkConf, SparkContext}
 
+// Listing 5.2 Triangle Counts on Slashdot friend and foe data
 object TriangleCount {
   def main(args: Array[String]): Unit = {
-    val conf = new SparkConf().setAppName("PageRank1").setMaster("local")
+    val conf = new SparkConf().setAppName("TriangleCount").setMaster("local")
     val sc = new SparkContext(conf)
 
     val g = GraphLoader.edgeListFile(sc, "soc-Slashdot0811.txt").cache

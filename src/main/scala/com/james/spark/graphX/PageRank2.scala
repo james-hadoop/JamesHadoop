@@ -3,9 +3,10 @@ package com.james.spark.graphX
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.graphx.GraphLoader
 
+// Listing 5.1 Personalized PageRank to find the most important related paper
 object PageRank2 {
   def main(args: Array[String]): Unit = {
-    val conf = new SparkConf().setAppName("PageRank1").setMaster("local")
+    val conf = new SparkConf().setAppName("PageRank2").setMaster("local")
     val sc = new SparkContext(conf)
 
     val g = GraphLoader.edgeListFile(sc, "cit-HepTh.txt")
