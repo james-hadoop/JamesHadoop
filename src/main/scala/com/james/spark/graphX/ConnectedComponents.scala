@@ -16,5 +16,13 @@ object ConnectedComponents {
     // CompactBuffer(1)
     // CompactBuffer(6, 7)
     // CompactBuffer(4, 3, 5, 2)
+
+    // Listing 5.6 Invoking stronglyConnectedComponents()
+    g.stronglyConnectedComponents(10).vertices.map(_.swap).groupByKey. map(_._2).collect.foreach(println)
+    // CompactBuffer(4)
+    // CompactBuffer(1)
+    // CompactBuffer(6)
+    // CompactBuffer(7)
+    // CompactBuffer(3, 5, 2)
   }
 }
