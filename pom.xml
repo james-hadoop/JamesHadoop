@@ -116,25 +116,25 @@
             <version>1.6.3</version>
         </dependency>
         <!--<dependency>-->
-            <!--<groupId>org.apache.spark</groupId>-->
-            <!--<artifactId>spark-streaming-mqtt-assembly_2.11</artifactId>-->
-            <!--<version>1.6.3</version>-->
+        <!--<groupId>org.apache.spark</groupId>-->
+        <!--<artifactId>spark-streaming-mqtt-assembly_2.11</artifactId>-->
+        <!--<version>1.6.3</version>-->
         <!--</dependency>-->
 
         <!--<dependency>-->
-            <!--<groupId>org.apache.spark</groupId>-->
-            <!--<artifactId>spark-streaming-zeromq_2.11</artifactId>-->
-            <!--<version>1.6.3</version>-->
+        <!--<groupId>org.apache.spark</groupId>-->
+        <!--<artifactId>spark-streaming-zeromq_2.11</artifactId>-->
+        <!--<version>1.6.3</version>-->
         <!--</dependency>-->
         <!--<dependency>-->
-            <!--<groupId>org.apache.spark</groupId>-->
-            <!--<artifactId>spark-streaming-twitter_2.11</artifactId>-->
-            <!--<version>1.6.3</version>-->
+        <!--<groupId>org.apache.spark</groupId>-->
+        <!--<artifactId>spark-streaming-twitter_2.11</artifactId>-->
+        <!--<version>1.6.3</version>-->
         <!--</dependency>-->
         <!--<dependency>-->
-            <!--<groupId>org.apache.spark</groupId>-->
-            <!--<artifactId>spark-streaming-mqtt_2.11</artifactId>-->
-            <!--<version>1.6.3</version>-->
+        <!--<groupId>org.apache.spark</groupId>-->
+        <!--<artifactId>spark-streaming-mqtt_2.11</artifactId>-->
+        <!--<version>1.6.3</version>-->
         <!--</dependency>-->
 
         <dependency>
@@ -228,6 +228,34 @@
             <version>2.4</version>
             <classifier>jdk15</classifier>
         </dependency>
+
+        <dependency>
+            <groupId>com.james.udf</groupId>
+            <artifactId>EtlStabilityJames</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.fge</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>2.1.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20140107</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-core-asl</artifactId>
+            <version>1.9.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.9.2</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -241,7 +269,6 @@
                     <execution>
                         <goals>
                             <goal>compile</goal>
-                            <goal>testCompile</goal>
                         </goals>
                     </execution>
                 </executions>
@@ -268,6 +295,23 @@
                         <classpathContainer>ch.epfl.lamp.sdt.launching.SCALA_CONTAINER</classpathContainer>
                     </classpathContainers>
                 </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
