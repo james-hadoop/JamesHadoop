@@ -1,5 +1,6 @@
 package com.james.spark.demo
 
+import org.apache.spark.storage.StorageLevel
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
@@ -14,5 +15,8 @@ object WordCount {
 
         Thread.sleep(1000*60)
         sc.stop()
+
+
+
     }
 }

@@ -1,0 +1,1 @@
+elasticsearch-spark-20_2.11-6.3.2.jar
