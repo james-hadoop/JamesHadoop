@@ -10,79 +10,352 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f7b2b2d-643f-4cd4-842b-63cc380e673c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/JamesHadoop.iml" afterPath="$PROJECT_DIR$/JamesHadoop.iml" />
-      <change beforePath="$PROJECT_DIR$/libs/scriptFile.scala" afterPath="$PROJECT_DIR$/libs/scriptFile.scala" />
-      <change beforePath="$PROJECT_DIR$/log4j.properties" afterPath="$PROJECT_DIR$/log4j.properties" />
-      <change beforePath="$PROJECT_DIR$/nested.json" afterPath="$PROJECT_DIR$/nested.json" />
-      <change beforePath="$PROJECT_DIR$/nested.json.sav/part-00000-698b4013-d896-4cf0-ae80-525ff7ab1582.json" afterPath="$PROJECT_DIR$/nested.json.sav/part-00000-698b4013-d896-4cf0-ae80-525ff7ab1582.json" />
-      <change beforePath="$PROJECT_DIR$/people.json" afterPath="$PROJECT_DIR$/people.json" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/scriptFile.scala" afterPath="$PROJECT_DIR$/scriptFile.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/elasticsearch/demo/BankEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/james/elasticsearch/demo/BankEntity.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/james/elasticsearch/demo/TransportClientDemo2.java" afterPath="$PROJECT_DIR$/src/main/java/com/james/elasticsearch/demo/TransportClientDemo2.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/App.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/App.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/demo/RemoveDuplication.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/demo/RemoveDuplication.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/demo/TopK.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/demo/TopK.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/demo/WordCount.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/demo/WordCount.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsJsonWriteDemo1.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsJsonWriteDemo1.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo1.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo1.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsStreamingWriteDemo1.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsStreamingWriteDemo1.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsWriteDemo1.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsWriteDemo1.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsWriteDemo2.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsWriteDemo2.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsWriteDemo3.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsWriteDemo3.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsWriteDemo4.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsWriteDemo4.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/ConnectedComponents.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/ConnectedComponents.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/Dijkstra.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/Dijkstra.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphGenerator.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphGenerator.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX1.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX1.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX2.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX2.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_1.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_1.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_2.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_2.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/HelloGrpaphX.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/HelloGrpaphX.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/JsonFormat.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/JsonFormat.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/KNearestNeighbors.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/KNearestNeighbors.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/LabelPropagation.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/LabelPropagation.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/MinimumSpanningTree.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/MinimumSpanningTree.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/PageRank1.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/PageRank1.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/PageRank2.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/PageRank2.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/SVDPlusPlus.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/SVDPlusPlus.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/Serialization.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/Serialization.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/ShortestPaths.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/ShortestPaths.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/SocialCircles.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/SocialCircles.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/TravellingSalesman.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/TravellingSalesman.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/TriangleCount.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/TriangleCount.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/hdfs/HdfsWordCount.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/hdfs/HdfsWordCount.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/hive/HiveSqlDemo.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/hive/HiveSqlDemo.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/hive/Test.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/hive/Test.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/tndpp/KafkaTndppConsumer.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/tndpp/KafkaTndppConsumer.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/tndpp/KafkaTndppDataFrameConsumer.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/tndpp/KafkaTndppDataFrameConsumer.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/tndpp/KafkaTndppDataFrameConsumer2.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/tndpp/KafkaTndppDataFrameConsumer2.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/tndpp/KafkaTndppProducer.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/tndpp/KafkaTndppProducer.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/tndpp/KafkaTndppProducer2.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/tndpp/KafkaTndppProducer2.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/word_count/KafkaWordCount.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/word_count/KafkaWordCount.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/word_count/KafkaWordCountConsumer.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/word_count/KafkaWordCountConsumer.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/word_count/KafkaWordCountProducer.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/word_count/KafkaWordCountProducer.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/sql/NestedJsonDemo.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/sql/NestedJsonDemo.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/sql/SparkSqlDemo.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/sql/SparkSqlDemo.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/DailyUserTypeDistributionApp.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/DailyUserTypeDistributionApp.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/DailyUserTypeDistributionApp2.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/DailyUserTypeDistributionApp2.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/HttpInputDStream.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/HttpInputDStream.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/StatefulRedisApp.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/StatefulRedisApp.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/StationJourneyCountApp.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/StationJourneyCountApp.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/StationJourneyCountDirectApp.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/StationJourneyCountDirectApp.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/StreamingTranslateApp.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/StreamingTranslateApp.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/TranslateApp.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/TranslateApp.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/TripByYearApp.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/TripByYearApp.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/TripByYearMultiApp.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/TripByYearMultiApp.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/org/apache/spark/Logging.scala" afterPath="$PROJECT_DIR$/src/main/scala/org/apache/spark/Logging.scala" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/com/james/AppTest.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/james/AppTest.scala" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/com/james/MySpec.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/james/MySpec.scala" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamesHadoop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/.metadata.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/offsets/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/offsets/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/offsets/10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/offsets/11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/offsets/12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/offsets/13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/offsets/14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/offsets/15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/offsets/16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/offsets/17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/offsets/18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/offsets/19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/offsets/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/offsets/20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/offsets/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/offsets/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/offsets/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/offsets/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/offsets/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/offsets/8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/offsets/9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/2121f952-b6ec-488d-bdc3-332d3af7ec1f/sources/0/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/27717700-f746-4240-879a-2fe9a68ec41a/.metadata.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/27717700-f746-4240-879a-2fe9a68ec41a/metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/27717700-f746-4240-879a-2fe9a68ec41a/offsets/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/27717700-f746-4240-879a-2fe9a68ec41a/sources/0/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/30899b64-c480-4f9a-811d-1793c104bb48/.metadata.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/30899b64-c480-4f9a-811d-1793c104bb48/metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/30899b64-c480-4f9a-811d-1793c104bb48/offsets/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/30899b64-c480-4f9a-811d-1793c104bb48/sources/0/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/.metadata.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/29" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/33" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/34" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/37" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/38" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/39" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/40" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/offsets/9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/99572048-6fba-4284-a5df-09c25d6521ae/sources/0/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/.metadata.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/29" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/33" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/34" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/37" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/38" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/39" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/40" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/42" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/43" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/44" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/45" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/46" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/47" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/48" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/49" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/offsets/9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/9f7893df-c89d-457f-8cd4-9fd302a3738e/sources/0/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/a585c176-37bb-4cdd-9a17-d1208d888206/.metadata.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/a585c176-37bb-4cdd-9a17-d1208d888206/metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/a585c176-37bb-4cdd-9a17-d1208d888206/offsets/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/a585c176-37bb-4cdd-9a17-d1208d888206/offsets/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/a585c176-37bb-4cdd-9a17-d1208d888206/offsets/10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/a585c176-37bb-4cdd-9a17-d1208d888206/offsets/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/a585c176-37bb-4cdd-9a17-d1208d888206/offsets/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/a585c176-37bb-4cdd-9a17-d1208d888206/offsets/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/a585c176-37bb-4cdd-9a17-d1208d888206/offsets/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/a585c176-37bb-4cdd-9a17-d1208d888206/offsets/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/a585c176-37bb-4cdd-9a17-d1208d888206/offsets/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/a585c176-37bb-4cdd-9a17-d1208d888206/offsets/8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/a585c176-37bb-4cdd-9a17-d1208d888206/offsets/9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/a585c176-37bb-4cdd-9a17-d1208d888206/sources/0/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/ba53ead2-eb60-49e2-8c60-bd0a7f747516/.metadata.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/ba53ead2-eb60-49e2-8c60-bd0a7f747516/metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/ba53ead2-eb60-49e2-8c60-bd0a7f747516/offsets/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/ba53ead2-eb60-49e2-8c60-bd0a7f747516/sources/0/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/.metadata.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/offsets/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/offsets/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/offsets/10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/offsets/11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/offsets/12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/offsets/13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/offsets/14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/offsets/15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/offsets/16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/offsets/17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/offsets/18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/offsets/19" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/offsets/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/offsets/20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/offsets/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/offsets/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/offsets/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/offsets/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/offsets/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/offsets/8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/offsets/9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerCheckPoint1/d350daa5-c8dd-49c4-aa90-5129b28527ab/sources/0/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-0194e0a2-7ed8-4d5e-a60a-bf71db8ec401.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-02248a4e-93c3-429e-948b-b1e61cd18cd7.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-03f6df1d-aef8-4d68-877b-37114be643f4.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-0de5cd14-d52e-451c-9974-8532d96a08a9.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-1389808d-9b68-4b37-a92d-6ed86e69dd9b.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-1570dd4f-17a2-4951-875c-d843795b0fb4.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-174b2185-e029-4bd1-a3fe-0d5f9e5a3bc9.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-192d11c2-5897-4a42-acb5-9aca3d04cd7a.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-1bb4743e-764d-42fb-b67f-1101417490ff.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-1df2dd21-a359-46d1-b0d2-44d2b4808bd1.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-2d4a2827-df07-4008-8553-ba891bb7ed67.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-31a25281-20e7-4a17-9a2c-2eb0fb05fa6b.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-31af4ac5-3910-413e-a1c9-0009a6810426.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-40d2b065-aa8b-451b-b212-f8c4f6da5a5a.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-47a13a97-b85f-412d-9475-c3a42c94c018.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-492b29e7-59cd-4f04-bb9e-f18dec14fa23.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-4a6db7ae-05c7-4b50-ab9f-ae8a0a6a9398.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-4cdf49b0-c544-428a-87d4-a5bad6ab4a71.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-4e57a291-88e7-4502-b7bd-5ba97d463ff7.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-4f2e3966-6a4d-4eb2-a41c-0a24d951cca9.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-53060c3b-afdc-4297-bea2-bb7020c0da2d.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-5fffa350-7141-4ecf-842d-4205477c928c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-63a2726f-f1e2-454e-bf80-10fee40767aa.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-7bac78be-83ce-4269-9331-48571a9c1985.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-7d4b18a9-e0b2-4e6f-a8cb-8e75ada5f2ce.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-7d909c65-71e2-480a-824f-bfb0fa2504ea.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-7f20fa78-8c45-4806-977b-6391052c406d.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-870660c6-48b0-47cf-a125-47c7686f3744.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-890497b5-814a-4a5d-9f10-4efffc0500eb.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-8f39fd91-9adf-44aa-b81c-2c7ad69345a7.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-984e92be-dadd-4dbd-87cf-7a35d9437d21.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-a85f04f7-36b5-4ea6-964f-fa3fd038ad88.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-aa309ad4-07f0-40d7-a686-67d8e8ecca48.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-b01ae9bc-bdff-4ba7-bcb0-751f688cc38e.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-b14fd41d-c44e-476c-959e-1ca9abfd30e6.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-b8b86a96-fc50-4d00-b496-d527f46456fc.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-c3d099d7-55f8-4790-91bf-02efbb914f39.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-c624a1be-e757-4883-bd19-5a9d145378f2.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-ce01f9c3-1152-40f0-bd2d-7fae6254d01c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-d1e7dbbe-6ad2-441d-93f9-b5dc27af8f7b.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-d61f3242-4b7d-4ff2-9e49-b412b76b211a.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-d6217546-db9d-406c-9f1c-638b33dec34e.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-d8e4c6cc-7523-4f6a-a389-09d2f31a5a68.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-dcfcb076-944e-45f9-973f-a50f1c7fbf55.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-dffda84b-0f8f-4ce1-8d22-532900e6e113.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-ed5b28e5-2b78-4d58-9e38-9033756526d4.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-ef2b5337-6915-41e3-ba18-c59f5bb8e6d6.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-f06d66c1-e4cc-454f-a074-f6dce5649e2c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-f1467887-683d-48a9-82a6-fa61712e6f4c.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-f5a03ea8-109c-4f9a-ad1e-4213c7c03429.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/.part-00000-f9f9a753-feb5-4571-9d7f-97413d02f348.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/19.compact" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/24" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/29.compact" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/33" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/34" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/37" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/38" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/39.compact" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/40" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/41" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/42" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/43" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/44" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/45" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/46" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/47" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/48" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/49.compact" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/_spark_metadata/9.compact" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-0194e0a2-7ed8-4d5e-a60a-bf71db8ec401.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-02248a4e-93c3-429e-948b-b1e61cd18cd7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-03f6df1d-aef8-4d68-877b-37114be643f4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-0de5cd14-d52e-451c-9974-8532d96a08a9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-1389808d-9b68-4b37-a92d-6ed86e69dd9b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-1570dd4f-17a2-4951-875c-d843795b0fb4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-174b2185-e029-4bd1-a3fe-0d5f9e5a3bc9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-192d11c2-5897-4a42-acb5-9aca3d04cd7a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-1bb4743e-764d-42fb-b67f-1101417490ff.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-1df2dd21-a359-46d1-b0d2-44d2b4808bd1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-2d4a2827-df07-4008-8553-ba891bb7ed67.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-31a25281-20e7-4a17-9a2c-2eb0fb05fa6b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-31af4ac5-3910-413e-a1c9-0009a6810426.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-40d2b065-aa8b-451b-b212-f8c4f6da5a5a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-47a13a97-b85f-412d-9475-c3a42c94c018.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-492b29e7-59cd-4f04-bb9e-f18dec14fa23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-4a6db7ae-05c7-4b50-ab9f-ae8a0a6a9398.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-4cdf49b0-c544-428a-87d4-a5bad6ab4a71.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-4e57a291-88e7-4502-b7bd-5ba97d463ff7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-4f2e3966-6a4d-4eb2-a41c-0a24d951cca9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-53060c3b-afdc-4297-bea2-bb7020c0da2d.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-5fffa350-7141-4ecf-842d-4205477c928c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-63a2726f-f1e2-454e-bf80-10fee40767aa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-7bac78be-83ce-4269-9331-48571a9c1985.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-7d4b18a9-e0b2-4e6f-a8cb-8e75ada5f2ce.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-7d909c65-71e2-480a-824f-bfb0fa2504ea.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-7f20fa78-8c45-4806-977b-6391052c406d.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-870660c6-48b0-47cf-a125-47c7686f3744.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-890497b5-814a-4a5d-9f10-4efffc0500eb.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-8f39fd91-9adf-44aa-b81c-2c7ad69345a7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-984e92be-dadd-4dbd-87cf-7a35d9437d21.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-a85f04f7-36b5-4ea6-964f-fa3fd038ad88.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-aa309ad4-07f0-40d7-a686-67d8e8ecca48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-b01ae9bc-bdff-4ba7-bcb0-751f688cc38e.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-b14fd41d-c44e-476c-959e-1ca9abfd30e6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-b8b86a96-fc50-4d00-b496-d527f46456fc.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-c3d099d7-55f8-4790-91bf-02efbb914f39.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-c624a1be-e757-4883-bd19-5a9d145378f2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-ce01f9c3-1152-40f0-bd2d-7fae6254d01c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-d1e7dbbe-6ad2-441d-93f9-b5dc27af8f7b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-d61f3242-4b7d-4ff2-9e49-b412b76b211a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-d6217546-db9d-406c-9f1c-638b33dec34e.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-d8e4c6cc-7523-4f6a-a389-09d2f31a5a68.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-dcfcb076-944e-45f9-973f-a50f1c7fbf55.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-dffda84b-0f8f-4ce1-8d22-532900e6e113.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-ed5b28e5-2b78-4d58-9e38-9033756526d4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-ef2b5337-6915-41e3-ba18-c59f5bb8e6d6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-f06d66c1-e4cc-454f-a074-f6dce5649e2c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-f1467887-683d-48a9-82a6-fa61712e6f4c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-f5a03ea8-109c-4f9a-ad1e-4213c7c03429.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1/part-00000-f9f9a753-feb5-4571-9d7f-97413d02f348.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1a/.part-00000-21cceedf-e2b0-4900-a8ed-d10e11b01b43.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1a/_spark_metadata/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1a/part-00000-21cceedf-e2b0-4900-a8ed-d10e11b01b43.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1b/.part-00000-12a63b62-221b-438a-8063-d2495b74331f.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1b/_spark_metadata/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KafkaTndppDataFrameConsumerPath1b/part-00000-12a63b62-221b-438a-8063-d2495b74331f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JamesHaodopArtifacts/JamesHaodopArtifacts.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JamesHaodopArtifacts/JamesHaodopArtifacts.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/demo/WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/demo/WordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/tndpp/KafkaTndppDataFrameConsumer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/tndpp/KafkaTndppDataFrameConsumer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/tndpp/KafkaTndppProducer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/tndpp/KafkaTndppProducer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/com/james/AppTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/com/james/MySpec.scala" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,32 +366,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EsReadDemo1.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo1.scala">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/demo/WordCount.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="135">
+              <caret line="9" column="74" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RemoveDuplication.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/demo/RemoveDuplication.scala">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/KMeansExample.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="20">
+              <caret line="30" column="77" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="77" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/LogisticRegressionWithLBFGSExample.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="31" column="98" selection-start-line="31" selection-start-column="98" selection-end-line="31" selection-end-column="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/NaiveBayesExample.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="45" column="17" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/target/tmp/myNaiveBayesModel/metadata/part-00000">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/NormalizerExample.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/RandomForestClassificationExample.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="29" column="97" selection-start-line="29" selection-start-column="97" selection-end-line="29" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/RandomForestRegressionExample.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="29" column="93" selection-start-line="29" selection-start-column="93" selection-end-line="29" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="178" column="42" lean-forward="true" selection-start-line="178" selection-start-column="42" selection-end-line="178" selection-end-column="42" />
-              <folding />
+            <state relative-caret-position="255">
+              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -134,8 +454,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>meta</find>
-      <find>1.6.3</find>
       <find>spark-streaming_2.11</find>
       <find>2.11.11</find>
       <find>2.11.</find>
@@ -164,6 +482,8 @@
       <find>tndppMsg</find>
       <find>elas</find>
       <find>elasticsearch</find>
+      <find>maven-compiler-plugin</find>
+      <find>hbase</find>
     </findStrings>
     <replaceStrings>
       <replace>2.12</replace>
@@ -181,11 +501,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -199,12 +514,23 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/LDADemo.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/KNearestNeighbors.scala" />
         <option value="$PROJECT_DIR$/people.json" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/demo/RemoveDuplication.scala" />
         <option value="$PROJECT_DIR$/.idea/compiler.xml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/com/james/scala/json/JsonParseDemo.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo1.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/demo/RemoveDuplication.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/james/MySpec.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/tndpp/KafkaTndppProducer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/tndpp/KafkaTndppDataFrameConsumer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/demo/WordCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/KMeansExample.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/LogisticRegressionWithLBFGSExample.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/MovieLensALS.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/NaiveBayesExample.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/NormalizerExample.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/RandomForestClassificationExample.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/RandomForestRegressionExample.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -212,7 +538,8 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="$MAVEN_REPOSITORY$" />
-        <option name="userSettingsFile" value="$USER_HOME$/install/maven/conf/settings_fangdd.xml" />
+        <option name="mavenHome" value="$USER_HOME$/install/maven" />
+        <option name="userSettingsFile" value="$USER_HOME$/install/maven/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -250,32 +577,19 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
+    <option name="x" value="1391" />
     <option name="y" value="52" />
-    <option name="width" value="1301" />
-    <option name="height" value="716" />
+    <option name="width" value="1421" />
+    <option name="height" value="826" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -284,21 +598,104 @@
               <item name="JamesHadoop" type="b2602c69:ProjectViewProjectNode" />
               <item name="JamesHadoop" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JamesHadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JamesHadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JamesHadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JamesHadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JamesHadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JamesHadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JamesHadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JamesHadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="james" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JamesHadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JamesHadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="james" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JamesHadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JamesHadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="james" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="mllib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JamesHadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JamesHadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JamesHadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JamesHadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JamesHadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JamesHadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="myNaiveBayesModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JamesHadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JamesHadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="myNaiveBayesModel" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JamesHadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JamesHadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="myNaiveBayesModel" type="462c0819:PsiDirectoryNode" />
+              <item name="metadata" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.15969582" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Company/Telenav/Project/UnifiedETL/udf/EtlStabilitySpark" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550908142938" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.15969582" />
+    <property name="settings.editor.selected.configurable" value="Scala Compiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -323,144 +720,158 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.MavenRunnning">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
+  <component name="RunManager" selected="Application.NaiveBayesExample">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.james.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.james.App" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
+    <configuration name="GraphX_4_1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.james.spark.graphX.GraphX_4_1" />
+      <module name="JamesHadoop" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JamesHadoop" />
-      <envs />
-    </configuration>
-    <configuration name="JsonParseDemo" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.james.scala.json.*" />
+          <option name="PATTERN" value="com.james.spark.graphX.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.james.scala.json.JsonParseDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KMeansExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.apache.spark.examples.mllib.KMeansExample" />
+      <module name="JamesHadoop" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JamesHadoop" />
-      <envs />
-    </configuration>
-    <configuration name="RemoveDuplication" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.james.spark.demo.*" />
+          <option name="PATTERN" value="org.apache.spark.examples.mllib.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.james.spark.demo.RemoveDuplication" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogisticRegressionWithLBFGSExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.apache.spark.examples.mllib.LogisticRegressionWithLBFGSExample" />
+      <module name="JamesHadoop" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JamesHadoop" />
-      <envs />
-    </configuration>
-    <configuration name="ValidateJsonSchema" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.james.spark.json.*" />
+          <option name="PATTERN" value="org.apache.spark.examples.mllib.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.james.spark.json.ValidateJsonSchema" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/ValidateRawLog/log_hour=18/logshed_denali_usage_logs_2018-04-23-18-00-GMT_ec2-logshedcollectorexternal-11-90000" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NaiveBayesExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.apache.spark.examples.mllib.NaiveBayesExample" />
       <module name="JamesHadoop" />
-      <envs />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.spark.examples.mllib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="WordCount" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <option name="MAIN_CLASS_NAME" value="com.james.spark.demo.WordCount" />
+      <module name="JamesHadoop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.james.spark.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.james.spark.demo.WordCount" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JamesHadoop" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="MavenRunnning" type="MavenRunConfiguration" factoryName="Maven">
+    <configuration name="JamesHadoopMaven" type="MavenRunConfiguration" factoryName="Maven" singleton="true">
       <MavenSettings>
         <option name="myGeneralSettings">
           <MavenGeneralSettings>
@@ -492,6 +903,7 @@
                 <option value="-Dmaven.test.skip=true" />
               </list>
             </option>
+            <option name="pomFileName" />
             <option name="profilesMap">
               <map />
             </option>
@@ -500,6 +912,7 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -529,6 +942,7 @@
             <option name="goals">
               <list />
             </option>
+            <option name="pomFileName" />
             <option name="profilesMap">
               <map />
             </option>
@@ -537,230 +951,40 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JamesHadoop" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <classRegexps />
-      <testRegexps />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <classRegexps />
-      <testRegexps />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <classRegexps />
-      <testRegexps />
-      <envs />
-      <method />
-    </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Maven.MavenRunnning" />
-      <item index="1" class="java.lang.String" itemvalue="Application.WordCount" />
-      <item index="2" class="java.lang.String" itemvalue="Application.RemoveDuplication" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ValidateJsonSchema" />
-      <item index="4" class="java.lang.String" itemvalue="Application.JsonParseDemo" />
-      <item index="5" class="java.lang.String" itemvalue="Application.App" />
+    <list>
+      <item itemvalue="Application.WordCount" />
+      <item itemvalue="Application.GraphX_4_1" />
+      <item itemvalue="Maven.JamesHadoopMaven" />
+      <item itemvalue="Application.KMeansExample" />
+      <item itemvalue="Application.LogisticRegressionWithLBFGSExample" />
+      <item itemvalue="Application.NaiveBayesExample" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.App" />
-        <item index="1" class="java.lang.String" itemvalue="Application.WordCount" />
-        <item index="2" class="java.lang.String" itemvalue="Application.JsonParseDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ValidateJsonSchema" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RemoveDuplication" />
+      <list>
+        <item itemvalue="Application.NaiveBayesExample" />
+        <item itemvalue="Application.LogisticRegressionWithLBFGSExample" />
+        <item itemvalue="Application.KMeansExample" />
+        <item itemvalue="Application.WordCount" />
+        <item itemvalue="Application.GraphX_4_1" />
       </list>
     </recent_temporary>
   </component>
@@ -771,16 +995,10 @@
         <entry key="$USER_HOME$/workspace4scala/akka-persistence-kafka" value="1482979408805" />
       </map>
     </option>
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="ScalaProjectSettings">
     <option name="dontShowConversionDialog" value="true" />
     <option name="ignorePerformance" value="true" />
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -792,66 +1010,60 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489643164646</updated>
+      <workItem from="1550882345473" duration="789000" />
+      <workItem from="1550887456783" duration="1482000" />
+      <workItem from="1550891485369" duration="675000" />
+      <workItem from="1550898872871" duration="4147000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7093000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="52" width="1301" height="716" extended-state="0" />
-    <editor active="true" />
+    <frame x="1391" y="52" width="1421" height="826" extended-state="0" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26677066" sideWeight="0.48814815" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40824467" sideWeight="0.5088889" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933652" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38845554" sideWeight="0.4911111" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2705611" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32780084" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5783699" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40824467" sideWeight="0.5088889" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5783699" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17787743" sideWeight="0.48814815" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2690583" sideWeight="0.4911111" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28516525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32780084" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23350254" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Nl-Palette" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32780084" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4911111" visible="true" weight="0.25409836" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5783699" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="SBT Console" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329235" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5088889" side_tool="true" weight="0.40824467" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32947367" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48814815" weight="0.44945356" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="12" weight="0.32917318" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32933652" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Data View" order="8" />
+      <window_info anchor="right" id="Properties" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="Database" order="11" />
+      <window_info anchor="right" id="Bean Validation" order="12" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -870,219 +1082,320 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="8" />
-    </breakpoint-manager>
-    <watches-manager />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myGraphVerticesA/part-00000" />
-    <entry file="file://$PROJECT_DIR$/gridGraph.gexf" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/JsonFormat.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/HelloGrpaphX.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_2.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX_4_1.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX2.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphGenerator.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/ConnectedComponents.scala" />
-    <entry file="file://$PROJECT_DIR$/cit-HepTh.txt" />
-    <entry file="file://$PROJECT_DIR$/users.parquet">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/LabelPropagation.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/Dijkstra.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/MinimumSpanningTree.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/LDADemo.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/PageRank2.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/Serialization.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/ShortestPaths.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/SocialCircles.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/SVDPlusPlus.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/TravellingSalesman.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/TriangleCount.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/PageRank1.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/demo/TopK.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="49" column="64" lean-forward="false" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/GraphX1.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/word_count/KafkaWordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/json/ValidateJsonSchema.scala" />
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/JamesHadoop.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/tndpp/KafkaTndppDataFrameConsumer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="111" lean-forward="false" selection-start-line="53" selection-start-column="111" selection-end-line="53" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" />
     <entry file="file://$PROJECT_DIR$/.idea/JamesHadoop.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="60" lean-forward="false" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="60" />
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/word_count/KafkaWordCountConsumer.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/scriptFile.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/scala/json/JsonParseDemo.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsJsonWriteDemo1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/elasticsearch/spark/core/Demo1.scala" />
+    <entry file="file://$PROJECT_DIR$/scriptFile.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soc-Slashdot0811.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/people.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/people.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/KNearestNeighbors.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/install/maven/conf/settings_fangdd.xml" />
+    <entry file="file://$PROJECT_DIR$/JamesHadoop.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsWriteDemo2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsWriteDemo4.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsWriteDemo3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/james/MySpec.scala" />
+    <entry file="jar://$USER_HOME$/install/jdk/src.zip!/java/util/ServiceLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/tndpp/KafkaTndppProducer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/TripByYearMultiApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/DailyUserTypeDistributionApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/DailyUserTypeDistributionApp2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/HttpInputDStream.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/StatefulRedisApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/StationJourneyCountApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/StationJourneyCountDirectApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/streaming/StreamingTranslateApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/sql/SparkSqlDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/apache/spark/Logging.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2835">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsWriteDemo1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/hdfs/HdfsWordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/demo/TopK.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/hive/Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/hive/HiveSqlDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/tndpp/KafkaTndppConsumer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/tndpp/KafkaTndppDataFrameConsumer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/demo/RemoveDuplication.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/demo/WordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="74" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/KMeansExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="30" column="77" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/LDAExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-696">
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/NormalizerExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/RandomForestClassificationExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="29" column="97" selection-start-line="29" selection-start-column="97" selection-end-line="29" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/RandomForestRegressionExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="29" column="93" selection-start-line="29" selection-start-column="93" selection-end-line="29" selection-end-column="93" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsWriteDemo4.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/MovieLensALS.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        <state relative-caret-position="117">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsWriteDemo3.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/LogisticRegressionWithLBFGSExample.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="159">
+          <caret line="31" column="98" selection-start-line="31" selection-start-column="98" selection-end-line="31" selection-end-column="98" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsWriteDemo2.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/NaiveBayesExample.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="286">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/tndpp/KafkaTndppProducer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/scriptFile.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsWriteDemo1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1378">
-          <caret line="1349" column="21" lean-forward="true" selection-start-line="1349" selection-start-column="21" selection-end-line="1349" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/demo/WordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/scala/json/JsonParseDemo.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsJsonWriteDemo1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/elasticsearch/spark/core/Demo1.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/demo/RemoveDuplication.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scriptFile.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/soc-Slashdot0811.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/people.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/people.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/graphX/KNearestNeighbors.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="178" column="42" lean-forward="true" selection-start-line="178" selection-start-column="42" selection-end-line="178" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/target/tmp/myNaiveBayesModel/metadata/part-00000">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

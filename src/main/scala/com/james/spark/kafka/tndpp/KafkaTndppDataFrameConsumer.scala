@@ -39,7 +39,7 @@ object KafkaTndppDataFrameConsumer {
             .format("kafka")
             .option("kafka.bootstrap.servers", "localhost:9092")
             .option("subscribe", "tndpp1")
-            .option("startingOffsets", "{\"tndpp1\":{\"0\":160}}")
+            .option("startingOffsets", "{\"tndpp1\":{\"0\":0}}")
             .option("group.id", "james_group_1")
             .load()
 
@@ -51,7 +51,7 @@ object KafkaTndppDataFrameConsumer {
         df.createOrReplaceTempView("df");
         val records = spark.sql("SELECT value from df")
 
-        val query = records.select("value").writeStream.format("text").start("KafkaTndppDataFrameConsumerPath1b")
+        val query = records.select("value").writeStream.format("text").start("KafkaTndppDataFrameConsumerPath1")
         //val query = records.writeStream.format("console").start()
         //val query= records.writeStream.outputMode("complete").format("console").start()
 

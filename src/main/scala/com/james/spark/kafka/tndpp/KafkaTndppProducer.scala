@@ -10,7 +10,7 @@ import org.apache.kafka.clients.producer.{KafkaProducer, ProducerConfig, Produce
 object KafkaTndppProducer {
 
     def main(args: Array[String]) {
-        var count0 = 190
+        var count0 = 0
 
         if (args.length < 2) {
             System.err.println("Usage: KafkaWordCountProducer <metadataBrokerList> <topic>")
