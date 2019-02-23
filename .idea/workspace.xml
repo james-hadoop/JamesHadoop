@@ -9,11 +9,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f7b2b2d-643f-4cd4-842b-63cc380e673c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JamesHaodopArtifacts/JamesHaodopArtifacts.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JamesHaodopArtifacts/JamesHaodopArtifacts.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1f7b2b2d-643f-4cd4-842b-63cc380e673c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,51 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/BinaryClassification.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/DecisionTreeRunner.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-441">
-              <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/AbstractParams.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/GradientBoostedTreesRunner.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-669">
-              <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/Word2VecExample.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="30" column="79" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/SparseNaiveBayes.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,16 +53,61 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/RankingMetricsExample.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/RandomRDDGeneration.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="35" column="84" selection-start-line="35" selection-start-column="84" selection-end-line="35" selection-end-column="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/RandomForestClassificationExample.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="29" column="97" selection-start-line="29" selection-start-column="97" selection-end-line="29" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/RandomForestRegressionExample.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/LogisticRegressionWithLBFGSExample.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="31" column="79" lean-forward="true" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/TFIDFExample.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="32" column="76" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/RandomRDDGeneration.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/SVMWithSGDExample.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="35" column="84" selection-start-line="35" selection-start-column="84" selection-end-line="35" selection-end-column="84" />
+            <state relative-caret-position="186">
+              <caret line="30" column="81" selection-start-line="30" selection-start-column="81" selection-end-line="30" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -209,6 +205,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/SimpleFPGrowth.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/RankingMetricsExample.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/RandomRDDGeneration.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/TFIDFExample.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/SVMWithSGDExample.scala" />
       </list>
     </option>
   </component>
@@ -322,7 +320,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550910593708" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550910916401" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -352,7 +350,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LogisticRegressionWithLBFGSExample">
+  <component name="RunManager" selected="Application.SVMWithSGDExample">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -414,6 +412,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SVMWithSGDExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.apache.spark.examples.mllib.SVMWithSGDExample" />
+      <module name="JamesHadoop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.spark.examples.mllib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleFPGrowth" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="org.apache.spark.examples.mllib.SimpleFPGrowth" />
       <module name="JamesHadoop" />
@@ -428,22 +440,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SparseNaiveBayes" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.apache.spark.examples.mllib.SparseNaiveBayes" />
-      <module name="JamesHadoop" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.apache.spark.examples.mllib.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Word2VecExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="org.apache.spark.examples.mllib.Word2VecExample" />
+    <configuration name="TFIDFExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.apache.spark.examples.mllib.TFIDFExample" />
       <module name="JamesHadoop" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -604,19 +602,19 @@
     </configuration>
     <list>
       <item itemvalue="Maven.JamesHadoopMaven" />
-      <item itemvalue="Application.Word2VecExample" />
-      <item itemvalue="Application.SparseNaiveBayes" />
       <item itemvalue="Application.SimpleFPGrowth" />
       <item itemvalue="Application.RankingMetricsExample" />
       <item itemvalue="Application.LogisticRegressionWithLBFGSExample" />
+      <item itemvalue="Application.TFIDFExample" />
+      <item itemvalue="Application.SVMWithSGDExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SVMWithSGDExample" />
+        <item itemvalue="Application.TFIDFExample" />
         <item itemvalue="Application.LogisticRegressionWithLBFGSExample" />
         <item itemvalue="Application.RankingMetricsExample" />
         <item itemvalue="Application.SimpleFPGrowth" />
-        <item itemvalue="Application.SparseNaiveBayes" />
-        <item itemvalue="Application.Word2VecExample" />
       </list>
     </recent_temporary>
   </component>
@@ -645,12 +643,12 @@
       <workItem from="1550882345473" duration="789000" />
       <workItem from="1550887456783" duration="1482000" />
       <workItem from="1550891485369" duration="675000" />
-      <workItem from="1550898872871" duration="6572000" />
+      <workItem from="1550898872871" duration="6890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9518000" />
+    <option name="totallyTimeSpent" value="9836000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1391" y="52" width="1421" height="826" extended-state="0" />
@@ -666,7 +664,7 @@
       <window_info id="Nl-Palette" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32780084" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4911111" weight="0.4330601" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4911111" visible="true" weight="0.4330601" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5783699" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -774,10 +772,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/install/maven/conf/settings_fangdd.xml" />
-    <entry file="file://$PROJECT_DIR$/JamesHadoop.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo1.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -964,31 +958,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/RandomForestClassificationExample.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="29" column="97" selection-start-line="29" selection-start-column="97" selection-end-line="29" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/RandomForestRegressionExample.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="29" column="93" selection-start-line="29" selection-start-column="93" selection-end-line="29" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/MovieLensALS.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/LogisticRegressionWithLBFGSExample.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="31" column="98" selection-start-line="31" selection-start-column="98" selection-end-line="31" selection-end-column="98" />
         </state>
       </provider>
     </entry>
@@ -1084,7 +1057,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/RankingMetricsExample.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1092,6 +1065,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="35" column="84" selection-start-line="35" selection-start-column="84" selection-end-line="35" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/RandomForestClassificationExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="29" column="97" selection-start-line="29" selection-start-column="97" selection-end-line="29" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/RandomForestRegressionExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/LogisticRegressionWithLBFGSExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="31" column="79" lean-forward="true" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/TFIDFExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="32" column="76" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/mllib/SVMWithSGDExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="30" column="81" selection-start-line="30" selection-start-column="81" selection-end-line="30" selection-end-column="81" />
         </state>
       </provider>
     </entry>
