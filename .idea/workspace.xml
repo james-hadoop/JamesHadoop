@@ -9,7 +9,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f7b2b2d-643f-4cd4-842b-63cc380e673c" name="Default" comment="" />
+    <list default="true" id="1f7b2b2d-643f-4cd4-842b-63cc380e673c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JamesHaodopArtifacts/JamesHaodopArtifacts.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JamesHaodopArtifacts/JamesHaodopArtifacts.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo2_4.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo2_4.scala" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo2_4.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="73" lean-forward="true" selection-start-line="72" selection-end-line="73" />
+            <state relative-caret-position="399">
+              <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
               <folding>
                 <element signature="e#39#72#0" expanded="true" />
               </folding>
@@ -136,8 +139,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDF3.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDF3_2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDF.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo2_4.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsWriteDemo2_4.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo2_4.scala" />
       </list>
     </option>
   </component>
@@ -270,7 +273,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551012838691" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551013667125" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -594,18 +597,18 @@
       <workItem from="1550887456783" duration="1482000" />
       <workItem from="1550891485369" duration="675000" />
       <workItem from="1550898872871" duration="6996000" />
-      <workItem from="1550962400132" duration="18138000" />
+      <workItem from="1550962400132" duration="18359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28080000" />
+    <option name="totallyTimeSpent" value="28301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20730738" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20730738" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -615,7 +618,7 @@
       <window_info id="Nl-Palette" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32780084" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4911111" visible="true" weight="0.28153846" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4911111" visible="true" weight="0.23846154" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5783699" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1050,8 +1053,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo2_4.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="73" lean-forward="true" selection-start-line="72" selection-end-line="73" />
+        <state relative-caret-position="399">
+          <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
           <folding>
             <element signature="e#39#72#0" expanded="true" />
           </folding>

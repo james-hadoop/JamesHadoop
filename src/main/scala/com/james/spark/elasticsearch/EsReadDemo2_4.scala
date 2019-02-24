@@ -28,8 +28,8 @@ object EsReadDemo2_4 {
     |  reason|participants|airport|
     +--------+------------+-------+
     |business|           3|    SFO|
-      |personal|           2|    OTP|
-      +--------+------------+-------+
+    |personal|           2|    OTP|
+    +--------+------------+-------+
     */
     spark.sql("select * from airportDF").show
 
@@ -52,24 +52,27 @@ object EsReadDemo2_4 {
     +--------+------------+-------+-------+--------+
     |  reason|participants|airport|airport|    city|
     +--------+------------+-------+-------+--------+
-      |business|           3|    SFO|    SFO|Shanghai|
-      |personal|           2|    OTP|    OTP| Beijing|
-      +--------+------------+-------+-------+--------+
-      */
+    |business|           3|    SFO|    SFO|Shanghai|
+    |personal|           2|    OTP|    OTP| Beijing|
+    +--------+------------+-------+-------+--------+
+    */
     println("\t**** to print ****")
     spark.sql("select * from airportDF a left join cityDF c on a.airport =c.airport").show
 
     /*
-     +--------+------------+-------+-------+--------+
-     |  reason|participants|airport|airport|    city|
-     +--------+------------+-------+-------+--------+
-      |business|           3|    SFO|    SFO|Shanghai|
-      |personal|           2|    OTP|    OTP| Beijing|
-      |    null|        null|   null|    ABC| Tianjin|
-      +--------+------------+-------+-------+--------+
-      */
+    +--------+------------+-------+-------+--------+
+    |  reason|participants|airport|airport|    city|
+    +--------+------------+-------+-------+--------+
+    |business|           3|    SFO|    SFO|Shanghai|
+    |personal|           2|    OTP|    OTP| Beijing|
+    |    null|        null|   null|    ABC| Tianjin|
+    +--------+------------+-------+-------+--------+
+    */
     println("\t**** to print ****")
     spark.sql("select * from airportDF a right join cityDF c on a.airport =c.airport").show
+
+    println("\t**** to print ****")
+    spark.sql("select * from airportDF a right join cityDF c on a.airport =c.airport where a.participants>2").show
 
 
     println("--------println end--------")
