@@ -2,7 +2,7 @@ package com.james.spark.elasticsearch
 
 import org.apache.spark.SparkConf
 import org.apache.spark.rdd.RDD
-import org.apache.spark.sql.types.{IntegerType, StringType, StructField, StructType}
+import org.apache.spark.sql.types._
 import org.apache.spark.sql.{DataFrame, Row, SparkSession}
 import org.elasticsearch.spark._
 
@@ -37,13 +37,7 @@ object EsReadDF {
     sc.esRDD("spark/json-trips", "?q=*").values.map{m=>val seq = m.values.toSeq
       Row.fromSeq(seq)}.collect().foreach(println)
 
-    val schema = StructType(List(
-      StructField("reason", StringType, true),
-      StructField("participants", StringType, false),
-      StructField("airport", StringType, true)
-    ))
-
-    val df3=map2DF(spark,sc.esRDD("spark2/json-trips", "?q=*").values)
+    val df3=map2DF(spark,sc.esRDD("spark3/json-trips", "?q=*").values)
     df3.createTempView("df3")
     spark.sql("select * from df3").show
 
@@ -57,8 +51,11 @@ object EsReadDF {
       Row.fromSeq(seq)
     }
 
-    val fields = cols.map(fieldName => StructField(fieldName, StringType, nullable = true))
-    val schema = StructType(fields)
+    val schema = StructType(List(
+      StructField("reason", StringType, true),
+      StructField("participants", LongType, true),
+      StructField("airport", StringType, true)
+    ))
 
     spark.createDataFrame(resRDD, schema)
   }
