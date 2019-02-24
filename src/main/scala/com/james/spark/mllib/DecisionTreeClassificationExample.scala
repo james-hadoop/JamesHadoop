@@ -28,7 +28,7 @@ import org.apache.spark.mllib.util.MLUtils
 object DecisionTreeClassificationExample {
 
   def main(args: Array[String]): Unit = {
-    val conf = new SparkConf().setAppName("DecisionTreeClassificationExample")
+    val conf = new SparkConf().setAppName("DecisionTreeClassificationExample").setMaster("local")
     val sc = new SparkContext(conf)
 
     // $example on$
