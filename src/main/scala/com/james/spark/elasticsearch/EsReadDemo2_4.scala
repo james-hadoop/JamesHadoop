@@ -1,6 +1,5 @@
 package com.james.spark.elasticsearch
 
-import com.james.spark.elasticsearch.EsReadDF3.map2DF
 import org.apache.spark.SparkConf
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.types._
@@ -24,15 +23,54 @@ object EsReadDemo2_4 {
     val airportDF = map2DF(spark, sc.esRDD("spark3/json-trips", "?q=*").values)
     airportDF.createTempView("airportDF")
     println("\t**** to print ****")
+    /*
+    +--------+------------+-------+
+    |  reason|participants|airport|
+    +--------+------------+-------+
+    |business|           3|    SFO|
+      |personal|           2|    OTP|
+      +--------+------------+-------+
+    */
     spark.sql("select * from airportDF").show
 
     val cityDF = map2DF2(spark, sc.esRDD("city3/json-trips", "?q=*").values)
     cityDF.createTempView("cityDF")
     println("\t**** to print ****")
+
+    /*
+    +-------+--------+
+    |airport|    city|
+    +-------+--------+
+    |    SFO|Shanghai|
+    |    ABC| Tianjin|
+    |    OTP| Beijing|
+    +-------+--------+
+    */
     spark.sql("select * from cityDF").show
 
+    /*
+    +--------+------------+-------+-------+--------+
+    |  reason|participants|airport|airport|    city|
+    +--------+------------+-------+-------+--------+
+      |business|           3|    SFO|    SFO|Shanghai|
+      |personal|           2|    OTP|    OTP| Beijing|
+      +--------+------------+-------+-------+--------+
+      */
     println("\t**** to print ****")
     spark.sql("select * from airportDF a left join cityDF c on a.airport =c.airport").show
+
+    /*
+     +--------+------------+-------+-------+--------+
+     |  reason|participants|airport|airport|    city|
+     +--------+------------+-------+-------+--------+
+      |business|           3|    SFO|    SFO|Shanghai|
+      |personal|           2|    OTP|    OTP| Beijing|
+      |    null|        null|   null|    ABC| Tianjin|
+      +--------+------------+-------+-------+--------+
+      */
+    println("\t**** to print ****")
+    spark.sql("select * from airportDF a right join cityDF c on a.airport =c.airport").show
+
 
     println("--------println end--------")
   }

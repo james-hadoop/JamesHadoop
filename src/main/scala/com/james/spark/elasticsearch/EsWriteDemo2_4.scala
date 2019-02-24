@@ -16,5 +16,11 @@ object EsWriteDemo2_4 {
 
     new SparkContext(conf).makeRDD(Seq(json1, json2,json3))
       .saveJsonToEs("city3/json-trips")
+
+    val json4 = """{"reason" : "business", "participants" :3,"airport" : "SFO"}"""
+    val json5 = """{"reason" : "personal","participants" :2, "airport" : "OTP"}"""
+
+    new SparkContext(conf).makeRDD(Seq(json4, json5))
+      .saveJsonToEs("spark3/json-trips")
   }
 }
