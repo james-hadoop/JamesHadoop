@@ -10,8 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f7b2b2d-643f-4cd4-842b-63cc380e673c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo3.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/JamesHaodopArtifacts/JamesHaodopArtifacts.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JamesHaodopArtifacts/JamesHaodopArtifacts.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo2_4.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo2_4.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,13 +26,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo2_4.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+            <state relative-caret-position="225">
+              <caret line="12" column="56" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="56" />
               <folding>
                 <element signature="e#39#72#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo3.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+              <folding>
+                <element signature="e#39#55#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,6 +154,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDF.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsWriteDemo2_4.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo2_4.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo3.scala" />
       </list>
     </option>
   </component>
@@ -263,8 +277,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,7 +287,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551013667125" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551108842862" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -303,7 +317,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EsReadDemo2_4">
+  <component name="RunManager" selected="Application.EsReadDemo3">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -379,8 +393,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EsWriteDemo2_3" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.james.spark.elasticsearch.EsWriteDemo2_3" />
+    <configuration name="EsReadDemo3" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.james.spark.elasticsearch.EsReadDemo3" />
       <module name="JamesHadoop" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -554,20 +568,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Maven.JamesHadoopMaven" />
       <item itemvalue="Application.EsReadDF" />
-      <item itemvalue="Application.EsWriteDemo2_3" />
       <item itemvalue="Application.EsReadDF3" />
       <item itemvalue="Application.EsWriteDemo2_4" />
       <item itemvalue="Application.EsReadDemo2_4" />
+      <item itemvalue="Maven.JamesHadoopMaven" />
+      <item itemvalue="Application.EsReadDemo3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EsReadDemo3" />
         <item itemvalue="Application.EsReadDemo2_4" />
         <item itemvalue="Application.EsWriteDemo2_4" />
         <item itemvalue="Application.EsReadDF" />
         <item itemvalue="Application.EsReadDF3" />
-        <item itemvalue="Application.EsWriteDemo2_3" />
       </list>
     </recent_temporary>
   </component>
@@ -597,18 +611,19 @@
       <workItem from="1550887456783" duration="1482000" />
       <workItem from="1550891485369" duration="675000" />
       <workItem from="1550898872871" duration="6996000" />
-      <workItem from="1550962400132" duration="18359000" />
+      <workItem from="1550962400132" duration="18683000" />
+      <workItem from="1551103972030" duration="2172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28301000" />
+    <option name="totallyTimeSpent" value="30797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20730738" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2104845" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -618,7 +633,7 @@
       <window_info id="Nl-Palette" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32780084" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4911111" visible="true" weight="0.23846154" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4911111" visible="true" weight="0.3123077" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5783699" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -726,13 +741,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/kafka/tndpp/KafkaTndppConsumer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/demo/RemoveDuplication.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -986,16 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding>
-            <element signature="e#39#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDF2.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1053,10 +1051,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo2_4.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+        <state relative-caret-position="225">
+          <caret line="12" column="56" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="56" />
           <folding>
             <element signature="e#39#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding>
+            <element signature="e#39#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/james/spark/elasticsearch/EsReadDemo3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding>
+            <element signature="e#39#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
